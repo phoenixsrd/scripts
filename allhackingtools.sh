@@ -3,6 +3,6 @@ apt update -y && apt upgrade -y
 termux-setup-storage
 apt install git -y
 git clone https://github.com/mishakorzik/AllHackingTools
-cd AllHackingTools
+cd scripts/AllHackingTools
 chmod +x Install.sh
 bash Install.sh
