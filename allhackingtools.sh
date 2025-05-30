@@ -69,7 +69,7 @@ apt install ngrok -y
 git clone https://github.com/mishakorzik/AllHackingTools
 
 #Cd To Directory AllHackingTools
-cd /data/data/com.termux/files/home/scripts/AllHackingTools
+cd AllHackingTools
 
 #Start Script To Install System
 bash Install.sh
