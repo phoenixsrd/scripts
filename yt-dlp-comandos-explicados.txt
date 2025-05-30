@@ -1,0 +1,79 @@
+Guia Completo Do yt-dlp - Comandos Explicados (Básico Ao Avançado)
+
+1. Comandos Básicos
+
+yt-dlp URL
+
+> Baixa O Vídeo Diretamente No Melhor Formato Disponível.
+
+yt-dlp -x --audio-format mp3 URL
+
+> Extrai Apenas O Áudio E Converte Para MP3.
+
+yt-dlp -f bestvideo+bestaudio URL
+
+> Baixa O Melhor Vídeo E O Melhor Áudio Separadamente E j
+Junta Os Dois.
+
+yt-dlp -o "%(title)s.%(ext)s" URL
+
+> Define O Nome Do Arquivo Como O Título Original Do Vídeo.
+
+2. Playlists E Múltiplos Vídeos
+
+yt-dlp -i --yes-playlist URL
+
+> Baixa Todos Os Víd0eos Da Playlist, Ignorando Erros.
+
+yt-dlp -a lista.txt
+
+> Baixa Todos Os Vídeos Listados No Arquivo 'lista.txt', Um Por Linha.
+
+3. Legendas, Metadados E Miniaturas
+
+yt-dlp --write-subs --sub-lang "pt,en" URL
+
+> Baixa Legendas Nas Línguas Português E Inglês, Se Disponíveis.
+
+yt-dlp -x --embed-thumbnail --add-metadata --audio-format mp3 URL
+
+> Extrai Áudio, Insere A Miniatura Como Capa E Adiciona Informações Como Título/Artista.
+
+4. Avançado
+
+yt-dlp --download-sections "*00:01:00-00:02:00" URL
+
+> Baixa Apenas Um Trecho Do Vídeo (De 1 A 2 Minutos).
+
+yt-dlp --limit-rate 1M URL
+
+> Limita A Velocidade De Download Para 1 Megabyte Por Segundo.
+
+yt-dlp --concurrent-fragments 5 -N 4 URL
+
+> Acelera O Download Dividindo O Vídeo Em Fragmentos (5 Ao Mesmo Tempo, 4 Downloads Simultâneos Otimo Para Usar Na Sua Lista).
+
+5. Arquivo De Configuração
+
+> Você Pode Criar Um Arquivo Que Guarda Suas Preferências. Isso Evita Digitar Tudo Sempre.
+
+Local:
+- Windows: %APPDATA%\yt-dlp\config.txt
+- Linux/macOS/Android: ~/.config/yt-dlp/config
+
+Exemplo De Configuração:
+
+-f bestvideo+bestaudio
+-o "%(title)s.%(ext)s"
+--embed-thumbnail
+--add-metadata
+--write-subs
+--sub-lang en
+
+Esse Arquivo É Lido Automaticamente Sempre Que Você Usar O yt-dlp.
+
+Links Úteis:
+- Sites Suportados: https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md
+- Documentação Oficial: https://github.com/yt-dlp/yt-dlp#usage-and-options
+
+Na Documentação Oficial Tem Uma Área Que Fala Sobre Cookies Para Baixar Videos De Outras Plataformas Que Exigem Login
