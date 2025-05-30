@@ -67,7 +67,7 @@ Recomenda-Se A Leitura Do Conteúdo De Cada Script Para Verificar Dependências 
 
 ## 📜 Licença
 
-Este Projeto É Licenciado Sob Os Termos Da [Licença MIT](LICENSE), Permitindo Ampla Utilização, Modificação E Redistribuição Do Código-Fonte, Desde Que Mantidos Os Devidos Créditos Ao Autor Original.
+Este Projeto É Licenciado Sob Os Termos Da [Licença MIT](license), Permitindo Ampla Utilização, Modificação E Redistribuição Do Código-Fonte, Desde Que Mantidos Os Devidos Créditos Ao Autor Original.
 
 ## 🤝 Contribuições
 
