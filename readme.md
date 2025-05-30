@@ -1,74 +1,74 @@
-# Repositório: scripts
+# Repositório: Scripts
 
-Este repositório contém uma coleção de scripts desenvolvidos com o intuito de automatizar tarefas, facilitar a instalação de ferramentas e oferecer suporte ao uso do utilitário `yt-dlp` em diferentes sistemas operacionais.
+Este Repositório Contém Uma Coleção De Scripts Desenvolvidos Com O Intuito De Automatizar Tarefas, Facilitar A Instalação De Ferramentas E Oferecer Suporte Ao Uso Do Utilitário `yt-dlp` Em Diferentes Sistemas Operacionais.
 
-## 📂 Conteúdo do Repositório
+## 📂 Conteúdo Do Repositório
 
-A seguir, descreve-se brevemente cada arquivo disponível:
+A Seguir, Descreve-Se Brevemente Cada Arquivo Disponível:
 
 - **allhackingtools.sh**  
-  Script que automatiza a instalação de diversas ferramentas voltadas à segurança da informação.
+  Script Que Automatiza A Instalação De Diversas Ferramentas Voltadas À Segurança Da Informação.
 
 - **yt-dlp-comandos-explicados.txt**  
-  Arquivo de texto contendo explicações detalhadas sobre os principais comandos do `yt-dlp`.
+  Arquivo De Texto Contendo Explicações Detalhadas Sobre Os Principais Comandos Do `yt-dlp`.
 
 - **yt-dlp-comandos.pdf**  
-  Documento em formato PDF reunindo uma lista de comandos úteis para o `yt-dlp`.
+  Documento Em Formato PDF Reunindo Uma Lista De Comandos Úteis Para O `yt-dlp`.
 
 - **yt-dlp-instalador-android.sh**  
-  Script destinado à instalação do `yt-dlp` em dispositivos Android, preferencialmente via Termux.
+  Script Destinado À Instalação Do `yt-dlp` Em Dispositivos Android, Preferencialmente Via Termux.
 
 - **yt-dlp-instalador-linux.sh**  
-  Script para instalação do `yt-dlp` em distribuições Linux compatíveis.
+  Script Para Instalação Do `yt-dlp` Em Distribuições Linux Compatíveis.
 
 - **yt-dlp-instalador-macos.sh**  
-  Script voltado à instalação do `yt-dlp` em sistemas operacionais macOS.
+  Script Voltado À Instalação Do `yt-dlp` Em Sistemas Operacionais macOS.
 
 - **yt-dlp-instalador-windows.ps1**  
-  Script em PowerShell para instalação automatizada do `yt-dlp` em sistemas Windows.
+  Script Em PowerShell Para Instalação Automatizada Do `yt-dlp` Em Sistemas Windows.
 
 ## ⚙️ Requisitos
 
-Cada script possui requisitos específicos conforme o sistema operacional e o ambiente de execução. Em linhas gerais, recomenda-se:
+Cada Script Possui Requisitos Específicos Conforme O Sistema Operacional E O Ambiente De Execução. Em Linhas Gerais, Recomenda-Se:
 
-- **Linux/macOS:** Terminal Bash com permissões adequadas de execução.
-- **Windows:** PowerShell com privilégios de execução ativados.
-- **Android:** Terminal com suporte a shell script, como o Termux.
+- **Linux/macOS:** Terminal Bash Com Permissões Adequadas De Execução.
+- **Windows:** PowerShell Com Privilégios De Execução Ativados.
+- **Android:** Terminal Com Suporte A Shell Script, Como O Termux.
 
-Recomenda-se a leitura do conteúdo de cada script para verificar dependências adicionais.
+Recomenda-Se A Leitura Do Conteúdo De Cada Script Para Verificar Dependências Adicionais.
 
-## ▶️ Instruções de Uso
+## ▶️ Instruções De Uso
 
-1. Clone este repositório:
+1. Clone Este Repositório:
 
    ```bash
    git clone https://github.com/phoenixsrd/scripts.git
    ```
 
-2. Acesse o diretório:
+2. Acesse O Diretório:
 
    ```bash
    cd scripts
    ```
 
-3. Conceda permissão de execução ao script desejado (para sistemas Unix-like):
+3. Conceda Permissão De Execução Ao Script Desejado (Para Sistemas Unix-Like):
 
    ```bash
    chmod +x nome-do-script.sh
    ```
 
-4. Execute o script:
+4. Execute O Script:
 
    ```bash
    ./nome-do-script.sh
    ```
 
-   No caso de sistemas Windows, recomenda-se executar o arquivo `.ps1` diretamente via PowerShell.
+   No Caso De Sistemas Windows, Recomenda-Se Executar O Arquivo `.ps1` Diretamente Via PowerShell.
 
 ## 📜 Licença
 
-Este projeto é licenciado sob os termos da [Licença MIT](LICENSE), permitindo ampla utilização, modificação e redistribuição do código-fonte, desde que mantidos os devidos créditos ao autor original.
+Este Projeto É Licenciado Sob Os Termos Da [Licença MIT](LICENSE), Permitindo Ampla Utilização, Modificação E Redistribuição Do Código-Fonte, Desde Que Mantidos Os Devidos Créditos Ao Autor Original.
 
 ## 🤝 Contribuições
 
-Contribuições são bem-vindas. Caso deseje colaborar com este projeto — seja por meio da criação de novos scripts, correção de erros ou sugestões de melhoria — sinta-se à vontade para abrir uma *issue* ou submeter um *pull request*.
+Contribuições São Bem-Vindas. Caso Deseje Colaborar Com Este Projeto — Seja Por Meio Da Criação De Novos Scripts, Correção De Erros Ou Sugestões De Melhoria — Sinta-Se À Vontade Para Abrir Uma *Issue* Ou Submeter Um *Pull Request*.
