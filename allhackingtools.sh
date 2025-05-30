@@ -1,6 +1,5 @@
 #Upgrade All & Full Packages
-apt update
-apt upgrade
+apt update -y && apt upgrade -y
 
 #Add Your Termux Permision
 termux-setup-storage
